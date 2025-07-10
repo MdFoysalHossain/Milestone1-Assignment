@@ -233,3 +233,48 @@ body{
 }
 
 /* ALL REVIEW SECTION END */
+
+
+/* FOCUS SECTION START */
+.focus{
+    margin-top: 130px;
+    background-color: #fff;
+    padding: 70px 150px;
+    border-radius: 14px;
+}
+
+.focus_details{
+    text-align: center;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.focus_details h2{
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+    font-size: 50px;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.focus_details img{
+    display: block;
+    width: 100%;
+    border-radius: 48px;
+    margin-top: 40px;
+}
+
+
+.focus_details p{
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.focus_details a{
+    font-weight: 400;
+}
+
+/* FOCUS SECTION END */
