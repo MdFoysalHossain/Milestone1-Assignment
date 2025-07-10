@@ -15,6 +15,10 @@ a, button:hover{
     text-decoration: none;
 }
 
+body{
+    background-color: #F5F8FF;
+}
+
 
 /* .raleway-<uniquifier> {
   font-family: "Raleway", sans-serif;
@@ -36,7 +40,7 @@ a, button:hover{
 /* HERO BANNER START */
 .hero{
     height: 100vh;
-    background-image: url("/Assets/Hero-bg.png");
+    background-image: url("../Assets/Hero-bg.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -100,7 +104,7 @@ a, button:hover{
     padding-right: 200px;
 }
 
-.action-sec .left h3{
+.action-sec .left h3, h3{
     font-weight: 700;
     font-family: "Raleway", sans-serif;
     font-size: 42px;
@@ -121,3 +125,36 @@ a, button:hover{
 }
 
 /* ACTION SECTION END */
+
+/* PRODUCTION SECTION START */
+.production{
+    margin-top: 130px;
+    text-align: center;
+    padding: 50px 80px;
+    background-color: rgba(77, 71, 255, 0.1);
+    border-radius: 24px;
+}
+
+.all_productions{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 30px
+}
+
+.single_production p{
+    color: #4E47FF;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    font-size: 80px;
+}
+
+.single_production span{
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+}
+
+
+/* PRODUCTION SECTION END */
