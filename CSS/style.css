@@ -6,7 +6,13 @@
 }
 
 .container{
-    margin: 0 200px;
+    /* margin: 0 200px; */
+    margin: 0 400px;
+}
+
+a, button:hover{
+    cursor: pointer;
+    text-decoration: none;
 }
 
 
@@ -30,7 +36,7 @@
 /* HERO BANNER START */
 .hero{
     height: 100vh;
-    background-image: url(/Assets/Hero-bg.png);
+    background-image: url("/Assets/Hero-bg.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -64,7 +70,7 @@
 }
 
 .hero-bannar{
-    padding: 250px 300px 0px 300px;
+    padding: 250px 100px 0px 100px;
     text-align: center;
 }
 
@@ -75,3 +81,43 @@
     color: #252432;
     margin-bottom: 37px;
 }
+
+/* HERO BANNER END */
+
+
+/* ACTION SECTION START */
+
+.action-sec{
+    margin-top: 130px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.action-sec .left{
+    padding-right: 200px;
+}
+
+.action-sec .left h3{
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+    font-size: 42px;
+    color: #252432;
+    margin-bottom: 23px;
+}
+
+.action-sec .left p{
+    font-weight: 400;
+    font-family: "Raleway", sans-serif;
+    font-size: 24px;
+    color: rgba(37, 36, 50, 0.5);
+    margin-bottom: 23px;
+}
+
+.action-sec .right img{
+    border-radius: 48px;
+}
+
+/* ACTION SECTION END */
