@@ -87,7 +87,7 @@ body{
 }
 
 .hero-bannar h2{
-    font-weight: 700;
+    font-weight: 800;
     font-family: "Raleway", sans-serif;
     font-size: 65px;
     color: #252432;
@@ -353,3 +353,53 @@ body{
     cursor: pointer;
 }
 /* NEWSLETTER END */
+
+
+
+
+
+
+/* FOOTER START */
+.footer-area{
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    margin-top: 100px;
+    padding: 130px 0;
+    background-color: #fff;
+}
+
+.footer-details{
+    text-align: center;
+}
+
+.footer-details h2{
+    font-weight: 800;
+    font-family: "Inter", sans-serif;
+    font-size: 100px;
+    color: #4E47FF;
+}
+.footer-details p{
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    color: #8987A1;
+    padding: 0 250px;
+    margin-top: 20px;
+}
+
+.footer-area nav ul{
+    margin-top: 20px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+
+.footer-area nav ul li a{
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    color: #8987A1;
+}
+
+
+/* FOOTER END */
