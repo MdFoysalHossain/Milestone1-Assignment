@@ -62,15 +62,23 @@ body{
     text-decoration: none;
 }
 
-.header-nav ul li button, .button-css{
+.button-css {
     font-weight: 700;
     font-family: "Raleway", sans-serif;
     font-size: 16px;
-    background-color: #4E47FF;
+    background: linear-gradient(to right, #4E47FF, #4E47FF); /* Same start color */
     color: #fff;
     border: 0px;
     padding: 12px 36px;
     border-radius: 10px;
+    transition: all 0.15s linear;
+    cursor: pointer;
+}
+
+.button-css:hover {
+    background-position: right center; 
+    background: linear-gradient(to right, #4E47FF, rgb(29, 23, 207));
+    transform: scale(1.025); 
 }
 
 .hero-bannar{
@@ -278,3 +286,70 @@ body{
 }
 
 /* FOCUS SECTION END */
+
+/* NEWSLETTER START */
+.newsletter{
+    margin-top: 130px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.newsletter .left, .newsletter .right{
+    text-align: left;
+    margin: auto 0;
+}
+
+
+.newsletter .right label{
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    color: #000;
+    margin-bottom: 5px;
+}
+
+.newsletter .right input, .newsletter .right textarea{
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    color: #000;
+    padding: 20px 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid #D6DDED;
+    width: 400px;
+}
+
+.newsletter .right input::placeholder{
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+.newsletter .left h2{
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+    font-size: 97px;
+    color: #000;
+}
+
+.newsletter .right form{
+    display: flex;
+    flex-direction: column;
+}
+
+.newsletter .right input[type="submit"] {
+    color: #fff;
+    width: 100%;
+    font-size: 16px;
+}
+
+.newsletter .right input[type="submit"]:hover{
+    cursor: pointer;
+}
+/* NEWSLETTER END */
